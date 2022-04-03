@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>SH SHOP-Login</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">	
+	</head>
+	
+	<body>
+		<br><div class="TITLE">
+			<p>SH SHOP</p>
+		</div><br><br>
+		<p><button type="button" class="on_button">로그인</button>
+			<button type="button" class="off_button" onclick="location.href='./signup.html'">회원가입</button></p>
+		<hr width="100%" color="black" size="3"><br>
+		<form method="post" action="./login.html" autocomplete="on">
+			<p class="int-area"><label>아이디 
+				<input type="text" id="user_id" autofocus required />
+				</label></p>
+			<p class="int-area"><label>비밀번호
+				<input type="text" id="user_password" required />
+				</label></p>
+			<p><button type="submit" class="background_blue user_button">로그인</button>
+				<button type="reset" class="background_black user_button">다시입력</button></p>
+		</form>
+		<hr width="100%" color="black" size="3">
+	</body>
+</html>

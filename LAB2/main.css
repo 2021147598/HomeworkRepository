@@ -1,0 +1,92 @@
+p { margin: 5px 5px 0px 20px; line-height: 120%; }
+body { font-size: 15px; }
+div { margin: 10px 5px 0px 20px; line-height: 150%; }
+
+.TITLE { font-family: 'Black Han Sans', sans-serif; font-size: 50px; }
+
+.red { color: red; }
+.background_green { background-color: #CFFFE5; margin-right: -4px;}
+.background_green:hover { background-color: #004B49; color: white; margin-right: -4px;}
+.background_red { background-color: #FFB69F; margin-left: -3px;}
+.background_red:hover { background-color: #560E0D; color: white; margin-left: -3px;}
+.background_blue { background-color: #AECBD6; margin-right: -4px;}
+.background_blue:hover { background-color: #030C54; color: white; margin-right: -4px;}
+.background_black { background-color: #DEDEDE; margin-left: -3px;}
+.background_black:hover { background-color: black; color: white; margin-left: -3px;}
+
+.bold { font-weight: bold; }
+
+.on_button { text-align: center;
+				margin-left: 3px;
+				margin-bottom: 10px;
+				border-style: none;
+				background-color: black;
+				color: white;
+				padding: 2px 0px 2px 0px;
+				font-size: 18px;
+				outline: 0; }
+.off_button { text-align: center;
+				margin-right: 3px;
+				margin-bottom: 10px;
+				border-style: none;
+				background-color: white;
+				padding: 2px 0px 2px 0px;
+				font-size: 18px; }
+.off_button:hover { text-align: center;
+				margin-bottom: 10px;
+				border-style: none;
+				background-color: black;
+				color: white;
+				padding: 2px 0px 2px 0px;
+				font-size: 18px; }
+
+.user_button {
+				text-align: center;
+				width: 120px; height: 30px;
+				margin-top: 30px;
+				border-width: thin; 
+				border-style: solid;
+				border-color: black; }
+.user_button:hover { 
+				text-align: center;
+				width: 120px; height: 30px;
+				margin-top: 30px;
+				border-width: thin; 
+				border-style: solid;
+				border-color: black; }
+
+.int-area {
+    width: 200px; position: relative;
+    margin-top: 20px;
+}
+.int-area:first-child {margin-top: 0;}
+.int-area input{
+    width:100%;
+    padding: 20px 10px 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom:1px solid #999;
+    font-size: 15px; color: #000;
+    outline: none;
+}
+.int-area label {
+    position: relative; left: 10px; top: 15px;
+    font-size: 15px; color: #000;
+    transition: top .5s ease;
+}
+.color {
+	width: 200px; position: relative;
+    margin-top: 20px;
+}
+.color input {
+	width:100%;
+    background-color: transparent;
+    border: none;
+    font-size: 15px; color: #000;
+    outline: none;
+}
+.color label {
+	position: relative; left: 10px; top: 15px;
+    font-size: 15px; color: #000;
+    transition: top .5s ease;
+}
