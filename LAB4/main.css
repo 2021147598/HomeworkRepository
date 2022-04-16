@@ -4,16 +4,16 @@ div { margin: 10px 5px 0px 20px; line-height: 150%; }
 
 @media screen and (max-width: 480px) {
 	.navbar { display: flex; flex-direction: column; flex-wrap: wrap; justify-content: center;}
-	.flex_horizontal { display: flex; flex-direction: column; flex-wrap: wrap; justify-content: center;}
-	.line_light {width: 300px; color:black; size: 2;}
-	.line_heavy {width: 300px; color: black; size: 3;}
-	div.cent_align { margin: 0 auto; width: 450px; text-align: center;}
-	div.display{ display: inline-block; margin: 10px; width: 350px; height: 350px; background-color: orange; overflow: hidden; text-align: right;}
+	.flex_horizontal { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center;}
+	.line_light {width: 400px; color:black; size: 2;}
+	.line_heavy {width: 400px; color: black; size: 3;}
+	div.cent_align { margin: 0 auto; width: 400px; text-align: center;}
+	div.display{ display: inline-block; margin: 10px; width: 400px; height: 400px; background-color: orange; overflow: hidden; text-align: right;}
 	
 }
 @media screen and (min-width: 481px) and (max-width: 800px) {
 	.navbar { display: flex; flex-direction: column; flex-wrap: wrap; justify-content: center;}
-	.flex_horizontal { display: flex; flex-direction: row; flex-wrap: wrap; }
+	.flex_horizontal { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center;}
 	.line_light {width: 650px; color:black; size: 2;}
 	.line_heavy {width: 650px; color: black; size: 5;}
 	div.cent_align { margin: 0 auto; width: 550px; text-align: center;}
