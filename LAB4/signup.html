@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>SH SHOP-Sign up</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">	
+	</head>
+	
+	<body>
+		<br><div class="TITLE cent_align">
+			SH SHOP
+		</div><br><br>
+		<div class="cent_align">
+			<p>
+				<button type="button" class="off_button" onclick="location.href='./index.html'">메인 페이지</button>
+				<button type="button"  class="off_button" onclick="location.href='./login.html'">로그인</button>
+				<button type="button"  class="on_button">회원가입</button></p>
+			<hr width="100%" color="black" size="3"><br>
+			<p class="bold">개인정보 입력(<span class="bold red">*</span>는 필수)</p>
+			<form method="post" action="./login.html" autocomplete="on">
+				<p class="int-area"><label>이름 
+					<input type="text" id="user_name" style="width: 120px;" autofocus
+						placeholder="홍길동" required />
+					<span class="bold red">*</span>
+					</label></p>
+				<p class="int-area"><label>생년월일 
+					<input type="date" id="user_birth" required />
+					<span class="bold red">*</span>
+					</label></p>
+				<p class="int-area"><label>전화번호 
+					<input type="tel" id="user_tel" style="width: 100px;"
+						placeholder="010-1234-5678"
+						pattern="\d{3}-\d{4}-\d{4}" required />
+					<span class="bold red">*</span>
+					</label></p>
+				<p class="color"><label>아이콘 색 
+					<input type="color" id="user_color" />
+					</label></p>
+				<p class="int-area"><label>아이디 
+					<input type="text" id="user_id"
+						placeholder="아이디를 입력하세요" required />
+					<span class="bold red">*</span>
+					</label></p>
+				<p class="int-area"><label>비밀번호 
+					<input type="text" id="user_password"
+						placeholder="비밀번호를 입력하세요" required />
+					<span class="bold red">*</span>
+					</label></p>
+				<p class="int-area"><label>비밀번호 확인
+					<input type="text" id="user_password"
+						placeholder="비밀번호 확인" required />
+					<span class="bold red">*</span>
+					</label></p>
+				<p class="int-area"><label>가입경로(1: 지인소개, 2: 인터넷, 3: 기타) 
+					<input type="number" min="1" max="3" step="1" />
+					</label></p>
+				<p><button type="submit" class="background_green user_button">입력 완료</button>
+					<button type="reset" class="background_red user_button">다시입력</button></p>
+			</form>
+			<hr width="100%" color="black" size="3">
+		</div>
+	</body>
+</html>
