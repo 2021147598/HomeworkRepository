@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SH SHOP-Main</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+	<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <br><div class="TITLE cent_align">
+        <p class="header_ani">SH SHOP</p>
+    </div><br><br>
+    <div class="cent_align">
+        <nav><button type="button" class="on_button">메인 페이지</button>
+            <button type="button" class="off_button" onclick="location.href='./login.html'">로그인</button>
+            <button type="button" class="off_button" onclick="location.href='./signup.html'">회원가입</button>
+        </nav>
+    </div>
+    <hr width="1020px" color="black" size="3">
+	<br><div class="cent_align bold" style="margin-top: 15px; font-size: 22px;">운동용품</div>
+	<hr width="1000px" color="black" size="2">
+    <div class="cent_align">
+        <div class="find_item">
+            <div style="margin: 10px;">
+                <label for="categoryChoosing" style="font-size: 17px;">Choose a category:</label><br>
+		        <select id="categoryChoosing" style="font-size: 17px; width: 90%; ">
+			        <option selected>All</option>
+			        <option>food</option>
+			        <option>helper</option>
+			        <option>weight</option>
+		        </select>
+            </div>
+            <div style="margin: 10px;">
+                <label for="searchTerm" style="font-size: 17px;">Enter search term:</label><br>
+                <input id="searchTerm" style="font-size: 17px; width: 88%;" type="text" placeholder="보충제">
+            </div><br>
+            <div style="margin: 10px;">
+                <button id="buttonSearch" style="font-size: 17px; width: 90%;">Filter results</button>
+            </div>
+        </div><div id="mainPage" class="main">
+        </div>
+    </div>
+<script src="main.js"></script>  
+</body>
+</html>

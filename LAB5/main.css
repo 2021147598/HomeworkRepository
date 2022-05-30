@@ -1,0 +1,120 @@
+p { margin: 5px 5px 0px 20px; line-height: 120%; }
+body { font-size: 15px; }
+div { margin: 10px 5px 0px 20px; line-height: 150%; }
+
+.TITLE { font-family: 'Black Han Sans', sans-serif; font-size: 50px; }
+div.cent_align { margin: 0 auto; width: 1000px; }
+div.display{ display: inline-block; margin: 10px; width: 225px; height: 225px; background-color: orange; overflow: hidden; text-align: right; position: relative;}
+div.find_item { margin: 0 auto; width: 225px; display: inline-block; overflow: hidden; vertical-align: top; position: relative;}
+div.main { margin: 0 auto; width: 700px; display: inline-block; position: relative;}
+div.item_detail { margin: 0 auto; padding: 20px; box-sizing: border-box; width: 225px; height: 225px; display: inline-block; position: absolute; left: 0px;
+				background-color: #2B2D2F; opacity: 0.7; color: white; font-weight: bold; text-align: left;}
+
+img.newitem { width: 225px; height: 225px; }
+img.item_size { width: 45px; height: 45px; transition: transform 2s; margin-top: 180px; }
+img.item_size:hover { transform: scale(5, 5); transform-origin: bottom right; }
+img.item_size:not(:hover) { transform: scale(1/5, 1/5); transform-origin: bottom right; }
+img.item_rot { width: 225px; height: 225px; transition: all ease 1s; }
+img.item_rot:hover { transform: rotate( 360deg );}
+
+p.msg { margin-top: 15px; font-size: 20px; font-weight: bold; text-align: center; }
+.red { color: red; }
+.background_green { background-color: #CFFFE5; margin-right: -4px;}
+.background_green:hover { background-color: #004B49; color: white; margin-right: -4px;}
+.background_red { background-color: #FFB69F; margin-left: -3px;}
+.background_red:hover { background-color: #560E0D; color: white; margin-left: -3px;}
+.background_blue { background-color: #AECBD6; margin-right: -4px;}
+.background_blue:hover { background-color: #030C54; color: white; margin-right: -4px;}
+.background_black { background-color: #DEDEDE; margin-left: -3px;}
+.background_black:hover { background-color: black; color: white; margin-left: -3px;}
+
+.bold { font-weight: bold; }
+
+button#buttonSearch { background-color: white;
+	color: black;
+	font-weight: bold;
+	border: thin solid black; }
+button#buttonSearch:hover { background-color: black;
+	color: white;
+	font-weight: bold;
+	border: thin solid black; }
+
+.on_button { text-align: center;
+				margin-left: 3px;
+				margin-bottom: 10px;
+				border-style: none;
+				background-color: black;
+				color: white;
+				padding: 2px 0px 2px 0px;
+				font-size: 18px;
+				outline: 0; }
+.off_button { text-align: center;
+				margin-right: 3px;
+				margin-bottom: 10px;
+				border-style: none;
+				background-color: white;
+				padding: 2px 0px 2px 0px;
+				font-size: 18px; }
+.off_button:hover { text-align: center;
+				margin-bottom: 10px;
+				border-style: none;
+				background-color: black;
+				color: white;
+				padding: 2px 0px 2px 0px;
+				font-size: 18px; }
+
+.user_button {
+				text-align: center;
+				width: 120px; height: 30px;
+				margin-top: 30px;
+				border-width: thin; 
+				border-style: solid;
+				border-color: black; }
+.user_button:hover { 
+				text-align: center;
+				width: 120px; height: 30px;
+				margin-top: 30px;
+				border-width: thin; 
+				border-style: solid;
+				border-color: black; }
+
+.int-area {
+    width: 200px; position: relative;
+    margin-top: 20px;
+}
+.int-area:first-child {margin-top: 0;}
+.int-area input{
+    width:100%;
+    padding: 20px 10px 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom:1px solid #999;
+    font-size: 15px; color: #000;
+    outline: none;
+}
+.int-area label {
+    position: relative; left: 10px; top: 15px;
+    font-size: 15px; color: #000;
+    transition: top .5s ease;
+}
+.color {
+	width: 200px; position: relative;
+    margin-top: 20px;
+}
+.color input {
+	width:100%;
+    background-color: transparent;
+    border: none;
+    font-size: 15px; color: #000;
+    outline: none;
+}
+.color label {
+	position: relative; left: 10px; top: 15px;
+    font-size: 15px; color: #000;
+    transition: top .5s ease;
+}
+.header_ani { position: relative;
+				animation: rtol linear 2s; }
+@keyframes rtol {
+	0%   {left: 1020px; top: 0px;}
+	100% {left: 0px; top: 0px;} }

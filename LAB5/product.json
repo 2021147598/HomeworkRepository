@@ -1,0 +1,130 @@
+[
+    {
+        "name" : "무게조절 덤벨",
+        "price" : 160000,
+        "image" : "images/item_1.jpg",
+        "info" : "무게 조절이 가능한 덤벨입니다.",
+        "type" : "weight"
+    },
+
+    {
+        "name" : "AB 슬라이드",
+        "price" : 20000,
+        "image" : "images/item_2.jpg",
+        "info" : "복근 및 전거근을 운동할 수 있는 운동기구입니다.",
+        "type" : "helper"
+    },
+    {
+        "name" : "경량 원판",
+        "price" : 50000,
+        "image" : "images/item_3.jpg",
+        "info" : "가벼운 중량을 위한 원판입니다.",
+        "type" : "weight"
+    },
+    {
+        "name" : "경량 원판 2",
+        "price" : 60000,
+        "image" : "images/item_4.jpg",
+        "info" : "가벼운 중량을 위한 원판입니다.",
+        "type" : "weight"
+    },
+    {
+        "name" : "WSF 스트랩",
+        "price" : 40000,
+        "image" : "images/item_5.jpg",
+        "info" : "턱걸이, 데드리프트 등의 운동을 할 때 전완의 개입을 줄여줄 수 있는 스트랩입니다.",
+        "type" : "helper"
+    },
+    {
+        "name" : "Physical 벨트",
+        "price" : 70000,
+        "image" : "images/item_6.jpg",
+        "info" : "스쿼트, 데드리프트 등의 운동을 할 때 보조를 해주는 기구입니다.",
+        "type" : "helper"
+    },
+    {
+        "name" : "Valed 벨트",
+        "price" : 80000,
+        "image" : "images/item_7.jpg",
+        "info" : "스쿼트, 데드리프트 등의 운동을 할 때 보조를 해주는 기구입니다.",
+        "type" : "helper"
+    },
+    {
+        "name" : "언더아머",
+        "price" : 1000000,
+        "image" : "images/item_8.jpg",
+        "info" : "3대 500 이상을 할 수 있도록 보조를 해주는 옷입니다.",
+        "type" : "helper"
+    },
+    {
+        "name" : "칼로바이 페펙트 파워쉐이크 단백질 보충제",
+        "price" : 60000,
+        "image" : "images/item_9.jpg",
+        "info" : "운동 후 30분 이내에 꼭 섭취해주어야 하는 보충제입니다.",
+        "type" : "food"
+    },
+    {
+        "name" : "WHEY 단백질 보충제",
+        "price" : 65000,
+        "image" : "images/item_10.jpg",
+        "info" : "운동 후 30분 이내에 꼭 섭취해주어야 하는 보충제입니다.",
+        "type" : "food"
+    },
+    {
+        "name" : "마이프로틴 단백질 보충제",
+        "price" : 60000,
+        "image" : "images/item_11.jpg",
+        "info" : "운동 후 30분 이내에 꼭 섭취해주어야 하는 보충제입니다.",
+        "type" : "food"
+    },
+    {
+        "name" : "컴뱃 단백질 보충제",
+        "price" : 60000,
+        "image" : "images/item_12.jpg",
+        "info" : "운동 후 30분 이내에 꼭 섭취해주어야 하는 보충제입니다.",
+        "type" : "food"
+    },
+    {
+        "name" : "닭가슴살",
+        "price" : 4000,
+        "image" : "images/item_13.jpg",
+        "info" : "단백질 보충을 위한 닭가슴살입니다.",
+        "type" : "food"
+    },
+    {
+        "name" : "홍두깨살",
+        "price" : 20000,
+        "image" : "images/item_14.jpg",
+        "info" : "단백질 보충을 위한 홍두깨살입니다.",
+        "type" : "food"
+    },
+    {
+        "name" : "연어 스테이크",
+        "price" : 20000,
+        "image" : "images/item_15.jpg",
+        "info" : "단백질 보충을 위한 연어스테이크입니다.",
+        "type" : "food"
+    },
+    {
+        "name" : "칼로바이 프로틴 스파클링",
+        "price" : 24000,
+        "image" : "images/item_16.jpg",
+        "info" : "단백질 보충을 위한 칼로바이 프로틴 스파클링입니다.",
+        "type" : "food"
+    },
+    {
+        "name" : "제로펩시",
+        "price" : 2000,
+        "image" : "images/item_17.jpg",
+        "info" : "칼로리가 거의 없는 제로콜라의 원탑 제로펩시입니다.",
+        "type" : "food"
+    },
+    {
+        "name" : "시에라핏 pre-workout",
+        "price" : 24000,
+        "image" : "images/item_18.jpg",
+        "info" : "운동 전에 마시는 부스터입니다.",
+        "type" : "food"
+    }
+
+]
